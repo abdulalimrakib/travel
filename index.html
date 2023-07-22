@@ -5,17 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="/css/tailwind.css" rel="stylesheet">
 </head>
 
 <body>
+    <nav>
+        <div class="md:container flex justify-between">
+            <div>
+                <span class="text-[30px]">Travel</span>
+            </div>
+            <div class="flex items-center block md:hidden">
+                <i class="fa-solid fa-bars text-[30px]"></i>
+            </div>
+            <div class="flex items-center md:block hidden">
+                <ul class=" flex">
+                    <li class="py-3 px-5 hover:text-blue-400 hover:cursor-pointer">Home</li>
+                    <li class="py-3 px-5 hover:text-blue-400 hover:cursor-pointer">About</li>
+                    <li class="py-3 px-5 hover:text-blue-400 hover:cursor-pointer">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <header class="bg-black text-white md:container">
         <div class="py-10">
-            <div class="md:ml-24 p-2">
+            <div class=" p-2">
                 <h1 class="md:text-[110px] text-[54px] font-[400]">Travel With Us</h1>
             </div>
 
-            <div class="md:ml-24 p-2">
+            <div class=" p-2">
                 <p class="font-[18px] text-xl md:w-[463px] p-3">Some of life’s usual rules go out of the window when
                     you’re
                     travelling.
@@ -51,6 +70,182 @@
             </div>
         </div>
     </header>
+
+    <section class="md:container md:flex py-16 justify-between p-1">
+        <div class="md:w-[40%] text-center lg:mt-20 lg:p-10">
+            <h4 class="text-[48px] font-[400]">The S​ecrets of Nature</h4>
+            <p class="text-[18px] font-[400]">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                nullam nunc
+                justo sagittis suscipit
+                ultrices.</p>
+            <button class="mt-5 py-2 px-3 bg-black text-white">LEARN MORE</button>
+        </div>
+        <div class="bg-[url('/img/Frame.png')] bg-center bg-cover bg-no-repeat md:w-[55%] mt-14 md:mt-0">
+            <img src="img/2nd.1.png" class="p-10" alt="">
+        </div>
+
+    </section>
+
+    <section class="md:container bg-[url('/img/bg-2.svg')] bg-center bg-cover bg-no-repeat py-14">
+        <div class="md:flex">
+            <div class="md:w-[33%] w-full p-1">
+                <div>
+                    <img src="img/8.svg" class="w-full" alt="">
+                    <div class="bg-black text-white">
+                        <p class="text-[34px] font-[400] py-10 px-5">Happiness is not at the top of the mountains but in
+                            how
+                            to
+                            climb
+                            it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-[33%] md:mt-10 w-full p-1">
+                <img src="img/9.svg" class="w-full" alt="">
+                <div class="py-7 px-4 bg-white">
+                    <h4 class="text-[36px]">About Us</h4>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit
+                        anim id est laborum.</p>
+                    <button class="bg-black text-white font-bold px-3 py-2 mt-6">LEARN MORE</button>
+                </div>
+            </div>
+            <div class="md:w-[33%] md:mt-52 w-full p-1">
+                <img src="img/10.svg" class="w-full" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="md:container my-16 md:h-[800px]">
+        <div
+            class="bg-[url('/img/Frame2.svg')] bg-center bg-cover bg-no-repeat md:w-[55%] mt-14 md:mt-0 md:float-right p-1">
+            <img src="img/11.png" class="p-10" alt="">
+        </div>
+        <div class="md:w-[45%] lg:mt-20 lg:p-10 md:float-left p-1">
+            <div class="md:mt-[300px]">
+                <h4 class="text-[60px] font-[400]">Every traveler is unique</h4>
+                <p class="text-[18px] font-[400]">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.</p>
+                <button class="mt-7 py-2 px-3 bg-black text-white font-bold">LEARN MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="md:container bg-[url('/img/bg-3.png')] bg-center bg-cover bg-no-repeat py-14">
+        <div class="md:flex">
+            <div class="md:w-[33%] w-full p-1 md:p-0">
+                <div>
+                    <div class="bg-[#DB545A] text-white py-10 px-8 md:mt-48">
+                        <h4 class="text-[24px]">Nature Tours</h4>
+                        <p class="text-[18px] font-[400] py-10">Fringilla ut morbi tincidunt augue interdum velit
+                            euismod in. Vel pharetra vel turpis nunc eget. Vel pretium lectus quam id leo in vitae
+                            turpis massa. Nulla facilisi cras fermentum odio eu feugiat pretium.</p>
+                        <button class="bg-white text-black font-bold px-3 py-2 mt-6">LEARN MORE</button>
+                    </div>
+                    <img src="img/15.png" class="w-full" alt="">
+                </div>
+            </div>
+            <div class="md:w-[33%] w-full p-1 md:p-0">
+                <img src="img/14.png" class="w-full" alt="">
+                <img src="img/13.png" class="w-full" alt="">
+            </div>
+            <div class="md:w-[33%] w-full p-1 md:p-0 md:mt-48">
+                <img src="img/12.png" class="w-full" alt="">
+                <div class="text-black bg-white py-10 px-8">
+                    <h4 class="text-[24px]">Exclusive deals</h4>
+                    <p class="text-[18px] font-[400]">The entire crew deserves an unforgettable vacation.
+                        When searching for the perfect accommodations, use the family-friendly badge to discover hotels
+                        that provide extra amenities for kids.</p>
+                    <button class="bg-[#DB545A] text-white font-bold px-3 py-2 mt-6">VIEW ALL</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class=" md:container md:flex my-16">
+        <div class="md:w-[33%]">
+            <div class="w-full">
+                <img src="img/16.png" class="w-full" alt="">
+            </div>
+            <div class="py-8 px-6 text-center bg-[#E5E5E5]">
+                <div class="flex justify-center py-4"><img src="img/logo1.png" alt=""></div>
+                <h4 class="text-[24px] font-[400]">Traveller Tours</h4>
+                <p class="text-[18px] font-[400] my-5">Sample text. Click to select the text box. Click again or double
+                    click
+                    to start editing the text.</p>
+            </div>
+        </div>
+        <div class="md:w-[33%]">
+            <div class="py-8 px-6 text-center bg-[#E5E5E5]">
+                <div class="flex justify-center py-4"><img src="img/logo2.png" alt=""></div>
+                <h4 class="text-[24px] font-[400]">Explore The World</h4>
+                <p class="text-[18px] font-[400] my-5">Sample text. Click to select the text box. Click again or double
+                    click to start editing the text.</p>
+            </div>
+            <div>
+                <img src="img/17.png" class="w-full" alt="">
+            </div>
+        </div>
+        <div class="md:w-[33%]">
+            <div>
+                <img src="img/18.png" class="w-full" alt="">
+            </div>
+            <div class="py-8 px-6 text-center bg-[#E5E5E5]">
+                <div class="flex justify-center py-4"><img src="img/logo3.png" alt=""></div>
+                <h4 class="text-[24px] font-[400]">Adventure Vacations</h4>
+                <p class="text-[18px] font-[400] my-5">Sample text. Click to select the text box. Click again or double
+                    click to start editing the text.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[url('/img/bg-4.png')] bg-center bg-cover bg-no-repeat">
+        <div class="md:container md:flex md:py-20 py-8 p-1 md:p-0">
+            <div class=" md:w-1/2 w-full bg-white flex justify-center md:p-36  p-2">
+                <div>
+                    <div class="flex justify-center">
+                        <img src="img/19.png" class="border rounded-full" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-[48px] font-[400] my-6">Travel With Us</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full bg-white text-center md:p-14 p-1 mt-5 md:mt-0">
+                <p class="text-gray-700 pt-14">Pharetra magna ac placerat vestibulum lectus mauris ultrices. Ut pharetra
+                    sit
+                    amet
+                    aliquam id.</p>
+                <p class="text-gray-500 my-16">Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis cras sed
+                    felis
+                    eget. Amet risus nullam
+                    eget felis eget nunc. Lacus vestibulum sed arcu non odio euismod. Consectetur adipiscing elit duis
+                    tristique.Pharetra magna ac placerat vestibulum lectus mauris ultrices.</p>
+                <span>Mon – Fri: 9:00 am – 8:00 pm,</span><br>
+                <span>Sat – Sun: 9:00 am – 10 pm</span>
+                <div class="my-6">
+                    <a href="www.linkedin.com/in/abdul-alim-rakib-6b941722b"
+                        class="hover:text-blue-400">contact@travel.com</a>
+
+                    <div class="my-8">
+                        <i class="fa-brands fa-facebook text-[30px] px-4"></i>
+                        <i class="fa-brands fa-linkedin text-[30px] px-4"></i>
+                        <i class="fa-brands fa-twitter text-[30px] px-4"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-800 text-white">
+        <div class="text-center">
+            <p class="py-10">Sample text. Click to select the Text Element.</p>
+            <p class="py-8">Website Templates created with Website Builder Software</p>
+        </div>
+    </section>
 </body>
 
 </html>
